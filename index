@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon premier site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Bienvenue sur mon site</h1>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2><a href="">Connaissances</a></h2>
+            <p>Réseau, Linux, Cybersécurité, Cloud, Développement web</p>
+        </section>
+    </main>
+    
+    <main>
+        <section>
+            <h2><a href="">Procédures</a></h2>
+            <p>Procédures techniques Windows, Linux, réseau et sécurité.</p>
+        </section>
+    </main>
+
+     <main>
+        <section>
+            <h2><a href="">Mes certifications</a></h2>
+            <p>My Mooc, lifelong learning solutions</p>
+        </section>
+    </main>
+
+    <main>
+        <section>
+            <h2><a href="">Réalisations en formation</a></h2>
+            <p>BTS SIO option SISR</p>
+        </section>
+    </main>
+
+    <main>
+        <section>
+            <h2><a href="">Projets personnels</a></h2>
+            <p>NAS, Homelab</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mon laboratoire professionnel informatique</p>
+    </footer>
+
+</body>
+</html>
