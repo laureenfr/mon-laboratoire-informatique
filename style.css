@@ -3,6 +3,10 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
     color: #333;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -15,7 +19,7 @@ header {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 px;
 }
 
 nav a:hover {
@@ -23,7 +27,8 @@ nav a:hover {
 }
 
 main {
-    max-width: 900px;
+    flex: 1;
+    max-width: 1700px;
     margin: 30px auto;
     padding: 20px;
     background: white;
@@ -35,4 +40,26 @@ footer {
     padding: 20px;
     background: #000000;
     color: white;
+}
+
+.card {
+    background-color: #111827;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.non-disponible {
+    font-style: italic;
 }
